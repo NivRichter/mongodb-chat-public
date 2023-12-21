@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 
-from app.api.dependencies.database import get_repository
-from app.db.repositories.tags import TagsRepository
-from app.models.schemas.tags import TagsInList
+from app1.api.dependencies.database import get_repository
+from app1.db.repositories.tags import TagsRepository
+from app1.models.schemas.tags import TagsInList
 
 router = APIRouter()
 

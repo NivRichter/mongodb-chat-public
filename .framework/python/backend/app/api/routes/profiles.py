@@ -1,14 +1,14 @@
 from fastapi import APIRouter, Depends, HTTPException
 from starlette.status import HTTP_400_BAD_REQUEST
 
-from app.api.dependencies.authentication import get_current_user_authorizer
-from app.api.dependencies.database import get_repository
-from app.api.dependencies.profiles import get_profile_by_username_from_path
-from app.db.repositories.profiles import ProfilesRepository
-from app.models.domain.profiles import Profile
-from app.models.domain.users import User
-from app.models.schemas.profiles import ProfileInResponse
-from app.resources import strings
+from app1.api.dependencies.authentication import get_current_user_authorizer
+from app1.api.dependencies.database import get_repository
+from app1.api.dependencies.profiles import get_profile_by_username_from_path
+from app1.db.repositories.profiles import ProfilesRepository
+from app1.models.domain.profiles import Profile
+from app1.models.domain.users import User
+from app1.models.schemas.profiles import ProfileInResponse
+from app1.resources import strings
 
 router = APIRouter()
 

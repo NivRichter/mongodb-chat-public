@@ -6,9 +6,9 @@ All routes are available on `/docs` or `/redoc` paths with Swagger or ReDoc.
 Project structure
 =================
 
-Files related to application are in the `app` or `tests` directories. Application parts are:
+Files related to application are in the `app1` or `tests` directories. Application parts are:
 
-    app
+    app1
     ├── api              - web related stuff.
     │   ├── dependencies - dependencies for routes definition.
     │   ├── errors       - definition of error handlers.

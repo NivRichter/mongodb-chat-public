@@ -2,8 +2,8 @@ from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
-from app.models.domain.items import Item
-from app.models.schemas.rwschema import RWSchema
+from app1.models.domain.items import Item
+from app1.models.schemas.rwschema import RWSchema
 
 DEFAULT_ITEMS_LIMIT = 20
 DEFAULT_ITEMS_OFFSET = 0

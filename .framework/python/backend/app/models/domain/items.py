@@ -1,8 +1,8 @@
 from typing import List, Optional
 
-from app.models.common import DateTimeModelMixin, IDModelMixin
-from app.models.domain.profiles import Profile
-from app.models.domain.rwmodel import RWModel
+from app1.models.common import DateTimeModelMixin, IDModelMixin
+from app1.models.domain.profiles import Profile
+from app1.models.domain.rwmodel import RWModel
 
 
 class Item(IDModelMixin, DateTimeModelMixin, RWModel):
