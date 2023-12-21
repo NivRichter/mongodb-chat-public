@@ -5,11 +5,11 @@ from asyncpg.pool import Pool
 from fastapi import Depends
 from starlette.requests import Request
 
-from app.db.repositories.base import BaseRepository
+from app1.db.repositories.base import BaseRepository
 
 
 def _get_db_pool(request: Request) -> Pool:
-    return request.app.state.pool
+    return request.app1.state.pool
 
 
 async def _get_connection_from_pool(

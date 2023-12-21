@@ -1,6 +1,6 @@
 # Anythink Market Backend
 
-The Anythink Market backend is Ruby web app written with [Ruby On Rails](https://rubyonrails.org/)
+The Anythink Market backend is Ruby web app1 written with [Ruby On Rails](https://rubyonrails.org/)
 
 ## Dependencies
 
@@ -12,8 +12,8 @@ The Anythink Market backend is Ruby web app written with [Ruby On Rails](https:/
 
 ## Folders
 
-- `app/models` - Contains the database models for the application where we can define methods, validations, queries, and relations to other models.
-- `app/views` - Contains templates for generating the JSON output for the API
-- `app/controllers` - Contains the controllers where requests are routed to their actions, where we find and manipulate our models and return them for the views to render.
+- `app1/models` - Contains the database models for the application where we can define methods, validations, queries, and relations to other models.
+- `app1/views` - Contains templates for generating the JSON output for the API
+- `app1/controllers` - Contains the controllers where requests are routed to their actions, where we find and manipulate our models and return them for the views to render.
 - `config` - Contains configuration files for our Rails application and for our database, along with an `initializers` folder for scripts that get run on boot.
 - `db` - Contains the migrations needed to create our database schema.

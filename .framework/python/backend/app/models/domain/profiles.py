@@ -1,6 +1,6 @@
 from typing import Optional
 
-from app.models.domain.rwmodel import RWModel
+from app1.models.domain.rwmodel import RWModel
 
 
 class Profile(RWModel):

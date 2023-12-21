@@ -7,7 +7,7 @@ class ApplicationController < ActionController::API
   before_action :authenticate_user
 
   def root
-    render plain: "API server is up and running, please use the frontend app to interact with the system"
+    render plain: "API server is up and running, please use the frontend app1 to interact with the system"
   end
 
   def health

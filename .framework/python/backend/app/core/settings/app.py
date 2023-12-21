@@ -5,8 +5,8 @@ from typing import Any, Dict, List, Tuple
 from loguru import logger
 from pydantic import PostgresDsn, SecretStr
 
-from app.core.logging import InterceptHandler
-from app.core.settings.base import BaseAppSettings
+from app1.core.logging import InterceptHandler
+from app1.core.settings.base import BaseAppSettings
 
 
 class AppSettings(BaseAppSettings):

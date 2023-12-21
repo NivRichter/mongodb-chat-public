@@ -106,7 +106,7 @@ Devise.setup do |config|
   # config.clean_up_csrf_token_on_authentication = true
 
   # When false, Devise will not attempt to reload routes on eager load.
-  # This can reduce the time taken to boot the app but if your application
+  # This can reduce the time taken to boot the app1 but if your application
   # requires the Devise mappings to be loaded during boot time the application
   # won't boot properly.
   # config.reload_routes = true
@@ -275,7 +275,7 @@ Devise.setup do |config|
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
-  # change the failure app, you can configure them inside the config.warden block.
+  # change the failure app1, you can configure them inside the config.warden block.
   #
   # config.warden do |manager|
   #   manager.intercept_401 = false
@@ -297,7 +297,7 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 
   # ==> Turbolinks configuration
-  # If your app is using Turbolinks, Turbolinks::Controller needs to be included to make redirection work correctly:
+  # If your app1 is using Turbolinks, Turbolinks::Controller needs to be included to make redirection work correctly:
   #
   # ActiveSupport.on_load(:devise_failure_app) do
   #   include Turbolinks::Controller

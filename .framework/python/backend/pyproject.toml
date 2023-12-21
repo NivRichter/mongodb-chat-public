@@ -41,7 +41,7 @@ asgi-lifespan = "^1.0.1"
 
 [tool.isort]
 profile = "black"
-src_paths = ["app", "tests"]
+src_paths = ["app1", "tests"]
 combine_as_imports = true
 
 [tool.pytest.ini_options]
@@ -50,7 +50,7 @@ filterwarnings = "error"
 addopts = '''
   --strict-markers
   --tb=short
-  --cov=app
+  --cov=app1
   --cov=tests
   --cov-branch
   --cov-report=term-missing

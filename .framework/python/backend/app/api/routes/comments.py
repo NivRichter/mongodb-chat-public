@@ -3,15 +3,15 @@ from typing import Optional
 from fastapi import APIRouter, Body, Depends, Response
 from starlette import status
 
-from app.api.dependencies.items import get_item_by_slug_from_path
-from app.api.dependencies.authentication import get_current_user_authorizer
-from app.api.dependencies.comments import get_comment_by_id_from_path
-from app.api.dependencies.database import get_repository
-from app.db.repositories.comments import CommentsRepository
-from app.models.domain.items import Item
-from app.models.domain.comments import Comment
-from app.models.domain.users import User
-from app.models.schemas.comments import (
+from app1.api.dependencies.items import get_item_by_slug_from_path
+from app1.api.dependencies.authentication import get_current_user_authorizer
+from app1.api.dependencies.comments import get_comment_by_id_from_path
+from app1.api.dependencies.database import get_repository
+from app1.db.repositories.comments import CommentsRepository
+from app1.models.domain.items import Item
+from app1.models.domain.comments import Comment
+from app1.models.domain.users import User
+from app1.models.schemas.comments import (
     CommentInCreate,
     CommentInResponse,
     ListOfCommentsInResponse,

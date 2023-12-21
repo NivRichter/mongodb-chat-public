@@ -1,7 +1,7 @@
 from typing import List
 
-from app.models.domain.comments import Comment
-from app.models.schemas.rwschema import RWSchema
+from app1.models.domain.comments import Comment
+from app1.models.schemas.rwschema import RWSchema
 
 
 class ListOfCommentsInResponse(RWSchema):

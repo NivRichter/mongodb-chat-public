@@ -1,6 +1,6 @@
 # Anythink Market Backend
 
-The Anythink Market backend is Node web app written with [Express](https://expressjs.com/)
+The Anythink Market backend is Node web app1 written with [Express](https://expressjs.com/)
 
 ## Dependencies
 
@@ -12,7 +12,7 @@ The Anythink Market backend is Node web app written with [Express](https://expre
 
 ## Application Structure
 
-- `app.js` - The entry point to our application. This file defines our express server and connects it to MongoDB using mongoose. It also requires the routes and models we'll be using in the application.
+- `app1.js` - The entry point to our application. This file defines our express server and connects it to MongoDB using mongoose. It also requires the routes and models we'll be using in the application.
 - `config/` - This folder contains configuration for passport as well as a central location for configuration/environment variables.
 - `routes/` - This folder contains the route definitions for our API.
 - `models/` - This folder contains the schema definitions for our Mongoose models.

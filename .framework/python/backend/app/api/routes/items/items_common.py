@@ -1,20 +1,20 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from starlette import status
 
-from app.api.dependencies.items import get_item_by_slug_from_path
-from app.api.dependencies.authentication import get_current_user_authorizer
-from app.api.dependencies.database import get_repository
-from app.db.repositories.items import ItemsRepository
-from app.models.domain.items import Item
-from app.models.domain.users import User
-from app.models.schemas.items import (
+from app1.api.dependencies.items import get_item_by_slug_from_path
+from app1.api.dependencies.authentication import get_current_user_authorizer
+from app1.api.dependencies.database import get_repository
+from app1.db.repositories.items import ItemsRepository
+from app1.models.domain.items import Item
+from app1.models.domain.users import User
+from app1.models.schemas.items import (
     DEFAULT_ITEMS_LIMIT,
     DEFAULT_ITEMS_OFFSET,
     ItemForResponse,
     ItemInResponse,
     ListOfItemsInResponse,
 )
-from app.resources import strings
+from app1.resources import strings
 
 router = APIRouter()
 

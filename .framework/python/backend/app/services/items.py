@@ -1,9 +1,9 @@
 from slugify import slugify
 
-from app.db.errors import EntityDoesNotExist
-from app.db.repositories.items import ItemsRepository
-from app.models.domain.items import Item
-from app.models.domain.users import User
+from app1.db.errors import EntityDoesNotExist
+from app1.db.repositories.items import ItemsRepository
+from app1.models.domain.items import Item
+from app1.models.domain.users import User
 
 
 async def check_item_exists(items_repo: ItemsRepository, slug: str) -> bool:
