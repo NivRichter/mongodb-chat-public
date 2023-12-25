@@ -20,10 +20,6 @@ function App() {
                     ]}
                 />
             </Chatbot>
-
-
-
-
         </div>
     );
 }
