@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Anythink Market Backend
 
 The Anythink Market backend is Node web app1 written with [Express](https://expressjs.com/)
@@ -20,3 +21,7 @@ The Anythink Market backend is Node web app1 written with [Express](https://expr
 ## Error Handling
 
 In `routes/api/index.js`, we define a error-handling middleware for handling Mongoose's `ValidationError`. This middleware will respond with a 422 status code and format the response to have [error messages the clients can understand](https://github.com/gothinkster/realworld/blob/master/API.md#errors-and-status-codes)
+=======
+# Mongo Chat Server 
+Based on https://mongodb.github.io/chatbot/server/configure
+>>>>>>> Stashed changes
